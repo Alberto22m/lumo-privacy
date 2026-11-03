@@ -4,6 +4,7 @@ import os, html
 
 OUT = os.path.dirname(os.path.abspath(__file__))
 ISSUES = "https://github.com/Alberto22m/lumo-privacy/issues"
+EMAIL = "rnane.1@icloud.com"
 DATE = {"en": "November 3, 2026", "ru": "3 ноября 2026", "es": "3 de noviembre de 2026", "fr": "3 novembre 2026"}
 NAMES = {"en": "English", "ru": "Русский", "es": "Español", "fr": "Français"}
 
@@ -24,13 +25,13 @@ T = {
    ("Children", ["Lumo is not directed to children under 13 and does not knowingly collect data from anyone."]),
    ("Your choices", ["Because we do not collect personal data, there is nothing for us to access, correct or delete. You can change or revoke access to Photos, Microphone and Speech Recognition at any time in iOS Settings > Lumo."]),
    ("Changes", ["If this policy changes, the new version will be published at this address with a new date."]),
-   ("Contact", [f'Questions about privacy: open an issue at <a href="{ISSUES}">{ISSUES}</a>. Please do not post personal information in a public issue.']),
+   ("Contact", [f'Questions about privacy: write to <a href="mailto:{EMAIL}">{EMAIL}</a> or open an issue at <a href="{ISSUES}">{ISSUES}</a>. Please do not post personal information in a public issue.']),
   ],
   support=[
-   ("How can I get help?", [f'Open an issue at <a href="{ISSUES}">{ISSUES}</a> and describe the problem, your device and iOS version. Please do not include personal photos or information.']),
+   ("How can I get help?", [f'Write to <a href="mailto:{EMAIL}">{EMAIL}</a> or open an issue at <a href="{ISSUES}">{ISSUES}</a> and describe the problem, your device and iOS version. Please do not include personal photos or information.']),
    ("Restore a purchase", ["Open Lumo > Settings and tap Restore Purchases. Use the same Apple ID that bought Premium."]),
    ("Manage or cancel a subscription", ["Open Lumo > Settings > Manage subscription, or iOS Settings > your name > Subscriptions. Cancel at least 24 hours before renewal."]),
-   ("Where are Reels, Collage, Best shots and Video?", ["Tap the + button at the top left of the Library. You can replay the tutorial in Settings > Show tutorial."]),
+   ("Where are Montage, Collage, Best shots and Video?", ["Tap the + button at the top left of the Library. You can replay the tutorial in Settings > Show tutorial."]),
    ("Lumo cannot see my photos", ["Open iOS Settings > Lumo > Photos and allow access (full or selected photos)."]),
    ("Is my data safe?", ["Everything is processed on your device and nothing is uploaded. Read the Privacy Policy for details."]),
   ]),
@@ -50,13 +51,13 @@ T = {
    ("Дети", ["Lumo не предназначен для детей младше 13 лет и сознательно не собирает данные ни о ком."]),
    ("Ваш выбор", ["Поскольку мы не собираем персональные данные, у нас нечего просматривать, исправлять или удалять. Вы можете в любой момент изменить или отозвать доступ к Фото, Микрофону и Распознаванию речи в Настройках iOS > Lumo."]),
    ("Изменения", ["Если политика изменится, новая версия появится по этому адресу с новой датой."]),
-   ("Контакты", [f'Вопросы о конфиденциальности: создайте обращение (issue) по адресу <a href="{ISSUES}">{ISSUES}</a>. Не публикуйте личные данные в открытом обращении.']),
+   ("Контакты", [f'Вопросы о конфиденциальности: напишите на <a href="mailto:{EMAIL}">{EMAIL}</a> или создайте обращение (issue) по адресу <a href="{ISSUES}">{ISSUES}</a>. Не публикуйте личные данные в открытом обращении.']),
   ],
   support=[
-   ("Как получить помощь?", [f'Создайте обращение по адресу <a href="{ISSUES}">{ISSUES}</a>: опишите проблему, модель устройства и версию iOS. Не прикладывайте личные фото и данные.']),
+   ("Как получить помощь?", [f'Напишите на <a href="mailto:{EMAIL}">{EMAIL}</a> или создайте обращение по адресу <a href="{ISSUES}">{ISSUES}</a>: опишите проблему, модель устройства и версию iOS. Не прикладывайте личные фото и данные.']),
    ("Восстановить покупку", ["Откройте Lumo > Настройки и нажмите «Восстановить покупки». Используйте тот же Apple ID, которым оформляли Premium."]),
    ("Управление и отмена подписки", ["Откройте Lumo > Настройки > Управление подпиской или Настройки iOS > ваше имя > Подписки. Отменяйте минимум за 24 часа до продления."]),
-   ("Где Reels, Коллаж, Лучшие кадры и Видео?", ["Нажмите кнопку «+» в левом верхнем углу Библиотеки. Обучение можно открыть снова в Настройки > Показать обучение."]),
+   ("Где Монтаж, Коллаж, Лучшие кадры и Видео?", ["Нажмите кнопку «+» в левом верхнем углу Библиотеки. Обучение можно открыть снова в Настройки > Показать обучение."]),
    ("Lumo не видит мои фото", ["Откройте Настройки iOS > Lumo > Фото и разрешите доступ (ко всем или к выбранным фото)."]),
    ("Мои данные в безопасности?", ["Всё обрабатывается на вашем устройстве, ничего не загружается. Подробности — в Политике конфиденциальности."]),
   ]),
@@ -76,13 +77,13 @@ T = {
    ("Menores", ["Lumo no está dirigida a menores de 13 años y no recopila datos de nadie a sabiendas."]),
    ("Tus opciones", ["Como no recopilamos datos personales, no tenemos nada que consultar, corregir o eliminar. Puedes cambiar o retirar en cualquier momento el acceso a Fotos, Micrófono y Reconocimiento de voz en Ajustes de iOS > Lumo."]),
    ("Cambios", ["Si esta política cambia, la nueva versión se publicará en esta dirección con una fecha nueva."]),
-   ("Contacto", [f'Preguntas sobre privacidad: abre una incidencia (issue) en <a href="{ISSUES}">{ISSUES}</a>. No publiques información personal en una incidencia pública.']),
+   ("Contacto", [f'Preguntas sobre privacidad: escribe a <a href="mailto:{EMAIL}">{EMAIL}</a> o abre una incidencia (issue) en <a href="{ISSUES}">{ISSUES}</a>. No publiques información personal en una incidencia pública.']),
   ],
   support=[
-   ("¿Cómo puedo obtener ayuda?", [f'Abre una incidencia en <a href="{ISSUES}">{ISSUES}</a> y describe el problema, tu dispositivo y la versión de iOS. No incluyas fotos ni datos personales.']),
+   ("¿Cómo puedo obtener ayuda?", [f'Escribe a <a href="mailto:{EMAIL}">{EMAIL}</a> o abre una incidencia en <a href="{ISSUES}">{ISSUES}</a> y describe el problema, tu dispositivo y la versión de iOS. No incluyas fotos ni datos personales.']),
    ("Restaurar una compra", ["Abre Lumo > Ajustes y toca Restaurar compras. Usa el mismo Apple ID con el que compraste Premium."]),
    ("Gestionar o cancelar la suscripción", ["Abre Lumo > Ajustes > Gestionar suscripción, o Ajustes de iOS > tu nombre > Suscripciones. Cancela al menos 24 horas antes de la renovación."]),
-   ("¿Dónde están Reels, Collage, Mejores tomas y Vídeo?", ["Toca el botón + de la esquina superior izquierda de la Biblioteca. Puedes repetir el tutorial en Ajustes > Mostrar tutorial."]),
+   ("¿Dónde están Montaje, Collage, Mejores tomas y Vídeo?", ["Toca el botón + de la esquina superior izquierda de la Biblioteca. Puedes repetir el tutorial en Ajustes > Mostrar tutorial."]),
    ("Lumo no ve mis fotos", ["Abre Ajustes de iOS > Lumo > Fotos y permite el acceso (a todas o a las seleccionadas)."]),
    ("¿Están seguros mis datos?", ["Todo se procesa en tu dispositivo y no se sube nada. Consulta la Política de privacidad para más detalles."]),
   ]),
@@ -102,13 +103,13 @@ T = {
    ("Enfants", ["Lumo ne s'adresse pas aux enfants de moins de 13 ans et ne collecte sciemment aucune donnée."]),
    ("Vos choix", ["Comme nous ne collectons aucune donnée personnelle, nous n'avons rien à consulter, corriger ou supprimer. Vous pouvez modifier ou retirer à tout moment l'accès à Photos, Micro et Reconnaissance vocale dans Réglages iOS > Lumo."]),
    ("Modifications", ["Si cette politique change, la nouvelle version sera publiée à cette adresse avec une nouvelle date."]),
-   ("Contact", [f'Questions sur la confidentialité : ouvrez un ticket (issue) sur <a href="{ISSUES}">{ISSUES}</a>. Ne publiez pas d\'informations personnelles dans un ticket public.']),
+   ("Contact", [f'Questions sur la confidentialité : écrivez à <a href="mailto:{EMAIL}">{EMAIL}</a> ou ouvrez un ticket (issue) sur <a href="{ISSUES}">{ISSUES}</a>. Ne publiez pas d\'informations personnelles dans un ticket public.']),
   ],
   support=[
-   ("Comment obtenir de l'aide ?", [f'Ouvrez un ticket sur <a href="{ISSUES}">{ISSUES}</a> en décrivant le problème, votre appareil et la version d\'iOS. N\'incluez ni photos ni informations personnelles.']),
+   ("Comment obtenir de l'aide ?", [f'Écrivez à <a href="mailto:{EMAIL}">{EMAIL}</a> ou ouvrez un ticket sur <a href="{ISSUES}">{ISSUES}</a> en décrivant le problème, votre appareil et la version d\'iOS. N\'incluez ni photos ni informations personnelles.']),
    ("Restaurer un achat", ["Ouvrez Lumo > Réglages et touchez Restaurer les achats. Utilisez le même identifiant Apple que pour Premium."]),
    ("Gérer ou résilier l'abonnement", ["Ouvrez Lumo > Réglages > Gérer l'abonnement, ou Réglages iOS > votre nom > Abonnements. Résiliez au moins 24 heures avant le renouvellement."]),
-   ("Où sont Reels, Collage, Meilleures photos et Vidéo ?", ["Touchez le bouton + en haut à gauche de la Photothèque. Vous pouvez revoir le tutoriel dans Réglages > Afficher le tutoriel."]),
+   ("Où sont Montage, Collage, Meilleures photos et Vidéo ?", ["Touchez le bouton + en haut à gauche de la Photothèque. Vous pouvez revoir le tutoriel dans Réglages > Afficher le tutoriel."]),
    ("Lumo ne voit pas mes photos", ["Ouvrez Réglages iOS > Lumo > Photos et autorisez l'accès (à toutes ou aux photos sélectionnées)."]),
    ("Mes données sont-elles en sécurité ?", ["Tout est traité sur votre appareil et rien n'est envoyé. Consultez la politique de confidentialité pour les détails."]),
   ]),
